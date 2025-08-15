@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+body{
+    background: #C6CCB2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Sigup Page*/
+.signup-container
+{
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width:100%;
+    max-width: 400px;
+}
+.signup-container form{
+    display: flex;
+    flex-direction: column;
+}
+.signup-container label{
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+.signup-container h2{
+    display: flex;
+    justify-content: center;
+}
+.signup-container input 
+{
+    padding: 0.6rem;
+    border: 1px solid #C6CCB2;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    transition:border-color 0.3s;
+}
+.signup-container input:focus
+{
+    border-color: #007bff;
+    outline: none;
+}
+.signup-container button 
+{
+    margin: 1rem 0;
+    padding: 0.7rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%;
+    border: 0px solid #ccc;
+}
+.signup-container button:hover
+{
+    background-color: navy;
+    color:  aliceblue;
+    font-weight: bold;
+}
+.sign-down {
+    margin-top:1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.sign-down a {
+    margin-left: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sign-down a:hover 
+{
+    text-decoration: underline;
+}
